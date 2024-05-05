@@ -2,7 +2,7 @@
 <div> 
   Chat bot made with basic Python without Machine Learning </div> 
 <div>
-  Made by:
-  Raghav Saxena
+  Made by: <br>
+  Raghav Saxena <br>
   Jinesh Jain
 </div>
