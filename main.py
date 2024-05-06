@@ -40,6 +40,8 @@ def check_all_messages(message):
     response('I\'m doing fine, and you?', ['how', 'are', 'you', 'doing'], required_words = ['how'])
     response('You\'re welcome!', ['thank', 'thanks'], single_response = True)
     response('Thank  you!', ['you', 'are', 'great'], required_words = ['great', 'beautiful', 'wonderful', 'fantastic'])
+    response('Currently I don\'t have a name, but you can give me one!', ['what','is','your' ,'name'], required_words = ['what', 'name'])
+
 
     # Longer responses
     response(long.R_ADVICE, ['give', 'advice'], required_words = ['advice'])
