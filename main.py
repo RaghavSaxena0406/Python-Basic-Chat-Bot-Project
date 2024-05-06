@@ -43,7 +43,7 @@ def check_all_messages(message):
 
     # Longer responses
     response(long.R_ADVICE, ['give', 'advice'], required_words = ['advice'])
-    response(long.R_ADVICE, ['what', 'you', 'eat'], required_words = ['you', 'eat'])
+    response(long.R_EATING, ['what', 'you', 'eat'], required_words = ['you', 'eat'])
 
     best_match = max(highest_prob_list, key = highest_prob_list.get)
     # print(highest_prob_list)
@@ -59,4 +59,4 @@ def get_response(user_input):
 
 # Testing the response system
 while True:
-    print('Bot: ' + get_response(input('You: ')))  
+    print('Bot: ' + get_response(input('You: ')))
