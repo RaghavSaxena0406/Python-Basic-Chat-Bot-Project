@@ -4,5 +4,6 @@
 <div>
   Made by: <br>
   Raghav Saxena <br>
-  Jinesh Jain
+  Jinesh Jain <br>
+  Dheeraj Kumar Choudhary
 </div>
